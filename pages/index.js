@@ -1,3 +1,4 @@
+import Feed from "@/components/Feed";
 import Header from "@/components/Header";
 import Sidebar from "@/components/Sidebar";
 import Head from "next/head";
@@ -14,6 +15,7 @@ export default function Home() {
       {/* Left Sidebar */}
       <Sidebar />
       {/* Feed (Create Post and Posts) */}
+      <Feed />
       {/* Right SideBar */}
     </main>
    </div> 
